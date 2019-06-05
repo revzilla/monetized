@@ -24,7 +24,7 @@ defmodule Monetized.Mixfile do
       {:earmark, "~> 0.2.1",  only: :dev},
       {:inch_ex, "~> 0.5.1",  only: :docs},
       {:decimal, "~> 1.3"},
-      {:ecto,    "~> 2.2"},
+      {:ecto,    "~> 3.0"},
       {:benchfella, "~> 0.3.2", only: :bench},
       {:poison, "~> 1.5 or ~> 2.0", optional: true},
     ]
